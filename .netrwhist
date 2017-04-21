@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/sean/Code/castle/le-schema'
+let g:netrw_dirhist_2='/Users/sean/Code/castle/le-schema/src'
+let g:netrw_dirhist_3='/Users/sean/Code/castle/le-schema'
+let g:netrw_dirhist_4='/Users/sean/Code/castle/le-schema/src'
+let g:netrw_dirhist_5='/Users/sean/Code/castle/le-schema'
+let g:netrw_dirhist_6='/Users/sean/Code/castle/le-schema/src'
+let g:netrw_dirhist_7='/Users/sean/Code/castle/le-schema'
+let g:netrw_dirhist_8='/Users/sean/Code/castle/client-web'
+let g:netrw_dirhist_9='/Users/sean/Code/castle/robot'
