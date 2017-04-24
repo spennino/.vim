@@ -2,6 +2,8 @@ execute pathogen#infect()
 syntax enable
 filetype plugin indent on
 
+colorscheme spring-night
+
 set background=dark
 set number
 set linespace=3
@@ -12,8 +14,4 @@ set expandtab
 set tabstop=2
 set shiftwidth=2
 set list
-
-if has('gui_running')
-	set transparency=0
-  colorscheme spring-night
-endif
+set splitright
