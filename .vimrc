@@ -16,3 +16,10 @@ set shiftwidth=2
 set list
 set splitright
 set splitbelow
+set hlsearch
+
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+
+"Remove all trailing whitespace by pressing F5
+nnoremap <F5> :let _s=@/<Bar>:%s/\s\+$//e<Bar>:let @/=_s<Bar><CR>
