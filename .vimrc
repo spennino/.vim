@@ -18,7 +18,13 @@ set splitright
 set splitbelow
 set hlsearch
 
+"Comma and backslash can both be used as leaders
+nmap , \
+
+"Edit vimrc file
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+
+"Source vimrc file
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
 "Remove all trailing whitespace by pressing F5
