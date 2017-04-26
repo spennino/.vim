@@ -21,6 +21,8 @@ set ignorecase
 set smartcase
 set noerrorbells visualbell t_vb=
 set nowrap
+au WinLeave * set nocursorline nocursorcolumn
+au WinEnter * set cursorline
 
 "Comma and backslash can both be used as leaders
 nmap , \
@@ -50,3 +52,7 @@ nnoremap <leader>hls :set hlsearch<cr>
 
 "Go back to previous file
 nnoremap <leader>gb :e #<cr>
+
+"Toggle cursor column marker
+nnoremap <leader>cm :set cursorcolumn<cr>
+nnoremap <leader>ncm :set nocursorcolumn<cr>
