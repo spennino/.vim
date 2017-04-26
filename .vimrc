@@ -17,6 +17,7 @@ set list
 set splitright
 set splitbelow
 set hlsearch
+set ignorecase
 set smartcase
 
 "Comma and backslash can both be used as leaders
