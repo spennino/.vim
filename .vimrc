@@ -20,6 +20,7 @@ set hlsearch
 set ignorecase
 set smartcase
 set noerrorbells visualbell t_vb=
+set nowrap
 
 "Comma and backslash can both be used as leaders
 nmap , \
