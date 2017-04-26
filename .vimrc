@@ -47,3 +47,6 @@ nnoremap <leader>sw :set wrap<cr>
 "Turn off highlight
 nnoremap <leader>noh :noh<cr>
 nnoremap <leader>hls :set hlsearch<cr>
+
+"Go back to previous file
+nnoremap <leader>gb :e #<cr>
