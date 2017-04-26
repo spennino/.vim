@@ -19,6 +19,7 @@ set splitbelow
 set hlsearch
 set ignorecase
 set smartcase
+set noerrorbells visualbell t_vb=
 
 "Comma and backslash can both be used as leaders
 nmap , \
@@ -39,5 +40,9 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
 "Toggle wrapping on and off
-nnoremap <leader>nw :set<Space>nowrap<cr>
-nnoremap <leader>sw :set<Space>wrap<cr>
+nnoremap <leader>nw :set nowrap<cr>
+nnoremap <leader>sw :set wrap<cr>
+
+"Turn off highlight
+nnoremap <leader>noh :noh<cr>
+nnoremap <leader>hls :set hlsearch<cr>
