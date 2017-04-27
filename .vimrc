@@ -56,3 +56,11 @@ nnoremap <leader>gb :e #<cr>
 "Toggle cursor column marker
 nnoremap <leader>cm :set cursorcolumn<cr>
 nnoremap <leader>ncm :set nocursorcolumn<cr>
+
+"Toggle NERDTree
+nnoremap <Leader>nt :NERDTreeToggle<cr>
+
+"More window height, Less windown height
+nnoremap <silent> <leader>wm :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <leader>wl :exe "resize " . (winheight(0) * 2/3)<CR>
+
