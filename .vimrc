@@ -64,3 +64,5 @@ nnoremap <Leader>nt :NERDTreeToggle<cr>
 nnoremap <silent> <leader>wm :exe "resize " . (winheight(0) * 3/2)<CR>
 nnoremap <silent> <leader>wl :exe "resize " . (winheight(0) * 2/3)<CR>
 
+"Refresh files in directory
+nnoremap <leader>nf :CommandTFlush<cr>
