@@ -4,6 +4,8 @@ filetype plugin indent on
 
 colorscheme spring-night
 
+let g:SuperTabCrMapping=1
+
 set background=dark
 set number
 set linespace=3
