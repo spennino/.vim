@@ -15,7 +15,7 @@ set t_Co=256
 set expandtab
 set tabstop=2
 set shiftwidth=2
-set list
+set nolist
 set splitright
 set splitbelow
 set hlsearch
