@@ -10,7 +10,7 @@ set background=dark
 set number
 set linespace=3
 set guifont=Inconsolata:h14
-set wildignore+=node_modules/**,build/tmp/**,*.js.map
+set wildignore+=*/node_modules/*,*/tmp/*,*.js.map
 set t_Co=256
 set expandtab
 set tabstop=2
